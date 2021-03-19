@@ -40,7 +40,7 @@ CLASS lc_tadir_unit_test IMPLEMENTATION.
 
     "mr_test_environment->insert_test_data( i_data  = lt_table ).
 
-    "CDS 1111
+    "CDS 2222
     mr_test_environment = cl_cds_test_environment=>create( i_for_entity = 'Z_TADIR_CDS' ).
 
     DATA(lr_test_data) = cl_cds_test_data=>create( i_data = lt_table ).
